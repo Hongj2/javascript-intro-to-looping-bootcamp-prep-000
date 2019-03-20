@@ -16,7 +16,11 @@ while(countdown>0) {
 }
 return(`done`)
 }
-
+function incrementVariable(num){
+  num = num + 1;
+  return num;
+}
+  
 function doWhileLoop(num){
   do{
   
