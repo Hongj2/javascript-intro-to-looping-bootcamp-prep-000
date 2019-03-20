@@ -18,7 +18,7 @@ return(`done`)
 }
 
 function incrementVariable(num){
-  num = num + 1;
+  var i = 0;
   return num;
 }
   
